@@ -23,4 +23,15 @@ while(bufferedInputStream.read(data, 0, 1024) >=0 )
 {
 	bufferedOutputStream.write(data);
 }
+#feature201 changes by vivek on Services module on 20th-Mar-2022
+// create a method
+  public int addNumbers(int a, int b) {
+    int sum = a + b;
+    // return value
+    return sum;
+  }
+   // calling method
+    int result = obj.addNumbers(num1, num2);
+    System.out.println("Sum is: " + result);
+
 }
