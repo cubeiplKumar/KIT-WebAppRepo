@@ -23,4 +23,15 @@ while(bufferedInputStream.read(data, 0, 1024) >=0 )
 {
 	bufferedOutputStream.write(data);
 }
+#feature202 changes by venkat for the module Reports on 24-mar-2022
+public static void main(String[] args) {
+    int result;
+
+    // call the method
+    // store returned value to result
+    result = square(10);
+
+    System.out.println("Squared value of 10 is: " + result);
+  }
+}
 }
