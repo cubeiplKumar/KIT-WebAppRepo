@@ -1,3 +1,10 @@
 working with the mutual bond policy
 
 code here using php
+
+WEbhook Job Demo 
+Configuration of CI job in jenkins.
+When Developer make any changes in the code and commit the new  code into
+Github Repository.
+Immediately Jenkins Triggered and fetch the latest code.
+
